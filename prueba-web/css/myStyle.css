@@ -1,0 +1,28 @@
+/* metodo aplicar color css */
+h3{
+    color: aqua;
+}
+/* fin metodo aplicar color css */
+
+/* id */
+#encabezado{
+    color: blue;
+
+    /* alinear al centro */
+    text-align: center;
+
+    /* manipular fuente */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* clases */
+.encabezadoClass{
+    color: blueviolet;
+}
+
+/* añadir colores a atributos */
+
+li,ul{
+    color: darkred;
+}
