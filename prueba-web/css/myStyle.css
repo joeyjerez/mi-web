@@ -26,3 +26,23 @@ h3{
 li,ul{
     color: darkred;
 }
+
+/* redimensionar imagen */
+img {
+    height: 100px;
+    width: 100px;
+}
+
+/* crear contenedor, añadir color */
+.contenedor{
+    border:solid blue;
+    /* alinear elementos */
+    display: flex;
+    /* centrar elementos */
+    justify-content:space-between;
+    height: 500px;
+    align-items: center;
+    /* margen dentro del contenedor  */
+    padding: 20%;
+    margin: 20px;
+}
